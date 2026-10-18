@@ -1,0 +1,17 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "Reproducible Node.js service example",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "node -e 'console.log(\"Build complete\")'",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
